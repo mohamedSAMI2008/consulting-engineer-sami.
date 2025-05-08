@@ -17,8 +17,10 @@ header {
     text-align: center;
     
 }
-
-  
+ .wq{
+  color: white;
+  font-size:32px ;
+ }
 
 .typing-effect {
     width: fit-content;
@@ -63,7 +65,7 @@ header {
   
 }
 .projects-image :hover{
-  color: #c8c7cc;
+  color: #ffffff;
 }
 
 header .moh a {
@@ -87,7 +89,15 @@ body {
 .main {
     padding: 50px;
     background-color: #f09000;
-   
+    display: flex;
+    justify-content: space-around;
+}
+.main video{
+  width: 70%;
+}
+.main .projects-card{
+  width: 460px;
+  height: 300px;
 }
   
 .main div {
@@ -141,7 +151,7 @@ h2 {
   padding: 20px;
 }
 .info h3{
-    color: #887880;
+    color: #4fdb17;
 }
 .info p{
     color: #037a0d;
@@ -160,8 +170,9 @@ h2 {
   
 .projects-category {
     font-size: 14px;
-    color: #777;
+    color: #0e0d0d;
 }
+
   
 .projects-titele a {
     color: #333;
@@ -235,3 +246,4 @@ h2 {
 .whatsapp-button:hover {
   background-color: #01ff66;
 }
+
